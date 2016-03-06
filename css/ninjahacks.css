@@ -107,10 +107,14 @@ body{
 	max-height:500px;
 }
 
-.imagos{
 
-	width: 250px;
+
 }
 
+@media screen and (max-width: 345px){
+	#imagos{
+
+	width:250px
+}
 }
 
