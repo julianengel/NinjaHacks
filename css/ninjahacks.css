@@ -71,6 +71,13 @@ body{
 	height:50px; width:50px;
 }
 
+#logo1{
+	display: block;
+}
+#logo2{
+	display: none;
+}
+
 @media (max-width: 995px){
 
 	#divisionOne{
@@ -114,7 +121,15 @@ body{
 	max-height:500px;
 }
 
+#logo2{
+	display: block;
 
+}
+
+#logo1{
+
+	display: none;
+}
 
 }
 
