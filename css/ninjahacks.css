@@ -46,7 +46,7 @@ h4{
 
 #divisionOne{
 	min-height: 1000px;
-	margin-top:70px;file:///Volumes/Transcend/Users/JulianE/Desktop/NinjaHacks_Web/mascot.png
+	margin-top:70px;
 }
 
 
@@ -59,7 +59,10 @@ body{
 	text-align: center;
 }
 
+.whiter h2{
 
+	color: white;
+}
 
 @media (max-width: 995px){
 
