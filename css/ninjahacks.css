@@ -98,3 +98,19 @@ body{
     	background-color: #2980b9;
     }
 }
+
+@media screen and (max-width: 550px){
+
+.altos{
+	padding-top: 0;
+	max-width:250px; 
+	max-height:500px;
+}
+
+.imagos{
+
+	width: 250px;
+}
+
+}
+
