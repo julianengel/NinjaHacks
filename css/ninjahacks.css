@@ -71,6 +71,10 @@ body{
 	height:50px; width:50px;
 }
 
+#mlh-trust-badge{
+	position:fixed;top:70px;left:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000
+}
+
 #logo1{
 	display: none;
 }
