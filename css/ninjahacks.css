@@ -108,6 +108,16 @@ body{
     margin-right: auto;
     }
 
+#mlh-trust-badge{
+	position:fixed;
+	top:70px;
+	right:50px;
+	max-width:100px;
+	width:10%;
+	min-width: 60px;
+	display:block;
+	z-index:10000
+}
    
    
 }
@@ -139,9 +149,6 @@ body{
 	display: none;
 }
 
-#mlh-trust-badge{
-	position:fixed;top:70px;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000
-}
 
 }
 
