@@ -2,6 +2,36 @@ ul{
 	padding-right: 20px;
 }
 
+
+
+/*.slant {
+  width: 120%;
+  height: 90px;
+  position: absolute;
+  left: -20px;
+  background: yellow;
+  z-index: 1;
+}
+
+.slant.bottom {
+  bottom: -10px;
+}
+
+.slant.top {
+  top: -40px;
+}
+
+.slant.left {
+  transform: rotate(-2deg);
+}
+
+.slant.right {
+  transform: rotate(2deg);
+}*/
+
+
+
+
 .altos{
 	padding-top: 0;
 	max-width:500px; 
@@ -45,16 +75,40 @@ h4{
 
 
 #divisionOne{
-	min-height: 1000px;
-	margin-top:70px;
+/*	min-height: 1000px;
+*/	margin-top:70px;
 }
 
 
 body{
 
 	background-color: #2980b9;
+ 	font-family: "Open Sans",sans-serif;}
+
+.light-blue{
+
+	background-color: rgba(52, 152, 219,1.0);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+.light-blue h1{
+
+	font-size: 40px;
 }
 
+
+.dark-blue{
+
+	background-color: rgba(41, 128, 185,1.0);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 18px;
+}
+.dark-blue h1{
+
+	font-size: 40px;
+}
 .centered{
 	text-align: center;
 }
@@ -83,7 +137,14 @@ body{
 }
 
 #mlh-trust-badge{
-	position:fixed;top:70px;left:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000
+	position:fixed;
+	top:70px;
+	left:50px;
+	max-width:100px;
+	width:10%;
+	min-width: 60px;
+	display:block;
+	z-index:10000
 }
 
 #logo1{
@@ -98,8 +159,8 @@ body{
 @media (max-width: 995px){
 
 	#divisionOne{
-	height: 1700px;
-	margin-top:70px;
+/*	height: 1700px;
+*/	margin-top:70px;
 	}
 }
 
@@ -119,24 +180,24 @@ body{
     margin-right: auto;
     }
 
-#mlh-trust-badge{
+	#mlh-trust-badge{
 	position:fixed;
 	top:70px;
-	right:30px;
+	right:10px;
 	max-width:100px;
 	width:10%;
 	min-width: 60px;
 	display:block;
 	z-index:10000
-}
+	}
    
    
 }
 
 @media (max-width: 1366px){
 	 #div1{
-    	min-height: 1600px;
-    	background-color: #2980b9;
+/*    	min-height: 1600px;
+*/    	background-color: #2980b9;
     }
 }
 
@@ -162,5 +223,45 @@ body{
 
 
 }
+
+
+@media (min-width: 550px) and (max-width: 990px){
+	/*.slant {
+		width: 100%;
+		height: 90px;
+		position: absolute;
+		left: -20px;
+		background: yellow;
+		z-index: -1;
+	}*/
+	.slant {
+  width: 120%;
+  height: 90px;
+  position: absolute;
+  left: -20px;
+  background: yellow;
+  z-index: 1;
+}
+
+	.slant.bottom {
+		margin-top: -50px;
+	}
+
+	.slant.top {
+	  top: -40px;
+	}
+
+.slant.left {
+  transform: rotate(2deg);
+}
+
+.slant.right {
+  transform: rotate(-2deg);
+}
+
+
+
+}
+
 
 
