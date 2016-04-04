@@ -29,11 +29,11 @@
         <div class="collapse navbar-collapse" style="margin-top:10px;" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">FAQ</a></li> 
-            <li><a href="#">Sponsors</a></li> 
-            <li><a href="#">Schedule</a></li> 
-            <li><a href="register/index.html">Register</a></li> 
+            <li><a href="#about" class="scroll">About</a></li>
+            <li><a href="#faq">FAQ</a></li> 
+            <li><a href="#sponsors">Sponsors</a></li> 
+<!--             <li><a href="#">Schedule</a></li> 
+ -->            <li><a href="register/index.html">Register</a></li> 
 
           </ul>
          
@@ -55,15 +55,19 @@
       <div class="col-md-6">
         <img src="img/logo_biggest.png" class="img-responsive logo">
       </div>
-      <div>
-        <p class="centered"> Cyprus's Premier High School Hackathon </p>
-        <p class="centered">April 16th- 17th 2016</p>
-        <p class="centered">Moniatis Hotel Limassol</p>
+      <div class="col-md-6">
+        <br>
+        <p class="centered alo"> Cyprus's Premier High School Hackathon </p>
+        <p class="centered alo">April 16th- 17th 2016</p>
+        <a href="https://goo.gl/maps/GVJEtavpgUK2"> <p class="centered alo">Moniatis Hotel Limassol</p></a>
+        <p class="centered alo"> <a href="http://ninjahacks.co/register" class="btn btn-default btn-lg centered" role="button">Register</a> </p>
 
       </div>
 
 
     </div>
+
+    <span class="anchor" id="about"></span>
 
     <div id="about" class="container white">
       <h1 class="centered"> ABOUT </h1>
@@ -75,6 +79,9 @@
 
     <div class="blue">
       <div class="container">
+            <span class="anchor" id="faq"></span>
+
+        <h1 class="centered" style="color:white;">FAQ</h1>
 
 
         <div class="col-md-4">
@@ -175,6 +182,8 @@
     </div>
 
     <div class="container-fluid white">
+          <span class="anchor" id="sponsors"></span>
+
       <h1 class="centered"> Sponsors </h1>
 
 
@@ -189,8 +198,8 @@
                         </div>
                         
                         <div class="card-content">
-                            <h2>PARTNER</h2>
-                            <p>Major League Hacking</p>
+                            <h2>Major Leage Hacking</h2>
+                            <p>Partner</p>
                         </div>
                         
                        
@@ -204,8 +213,8 @@
                       </div>
                       
                       <div class="card-content">
-                          <h2>SUPPORTER</h2>
-                          <p>STACK OVERFLOW</p>
+                          <h2>Stack Overflow</h2>
+                          <p>Supporter</p>
                       </div>
                       
                      
@@ -220,8 +229,8 @@
                     </div>
                     
                     <div class="card-content">
-                        <h2>SPONSOR</h2>
-                        <p>KEAN</p>
+                        <h2>Kean</h2>
+                        <p>Sponsor</p>
                     </div>
                     
                    
@@ -240,8 +249,8 @@
                           </div>
                           
                           <div class="card-content">
-                              <h2>SPONSOR</h2>
-                              <p>COMPUTER LAND</p>
+                              <h2>Computer Land</h2>
+                              <p>Sponsor</p>
                           </div>
                           
                          
@@ -255,8 +264,8 @@
                         </div>
                         
                         <div class="card-content">
-                            <h2>SPONSOR</h2>
-                            <p>JULO'S DEVELOPMENT</p>
+                            <h2>Julo's Development</h2>
+                            <p>Sponsor</p>
                         </div>
                         
                        
@@ -271,8 +280,8 @@
                       </div>
                       
                       <div class="card-content">
-                          <h2>SPONSOR</h2>
-                          <p>LADY BUGS ENGLISH INSTITUTE</p>
+                          <h2>Ladybugs English</h2>
+                          <p>Sponsors</p>
                       </div>
                       
                      
@@ -288,7 +297,28 @@
 
 
 
+      <script type="text/javascript">
 
+      $(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $(id).offset().top;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos});
+});
+      </script>
 
    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

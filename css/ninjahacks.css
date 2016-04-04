@@ -2,6 +2,19 @@ ul{
 	padding-right: 20px;
 }
 
+.alo{
+  color:white;
+  font-size:20px;"
+}
+
+
+.anchor{
+  display: block;
+  height: 70px; /*same height as header*/
+  margin-top: -70px; /*same height as header*/
+  visibility: hidden;
+}
+
 .altos{
 	padding-top: 20px;
 	max-width:500px; 
@@ -40,7 +53,33 @@ ul{
 }
 
 
+h1{
 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#about{
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+#about p{
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+#headerp{
+
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 20px;
+}
 
 .centered{
 	text-align: center;
@@ -163,4 +202,12 @@ padding-bottom: 20px;
 }
 
 
+@media(min-width: 990px) and (max-width: 1200px){
 
+  .card {
+
+    height: 350px;
+  }
+
+
+}
