@@ -147,6 +147,24 @@ padding-bottom: 20px;
   color: white;
 }
 
+#footerr .aaa{
+  text-align: left;
+}
+#footerr .ccc{
+  text-align: right;
+}
+
+
+@media (max-width: 991px){
+  #footerr .aaa{
+    text-align: center;
+  }
+  #footerr .ccc{
+    text-align: center;
+  }
+}
+
+
 /*FAQ*/
 
 .cardFAQ {
